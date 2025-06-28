@@ -25,3 +25,33 @@ To install the EXIF library:
 
 ```bash
 pip install exifread
+```
+## How to Use
+
+- Clone the repository:
+
+```bash
+git clone https://github.com/niklaus2811000/file-metadata-extractor.git
+cd file-metadata-extractor
+```
+- Run the script:
+
+```bash
+python3 file_metadata_extractor.py
+```
+When prompted, enter the full path to the file you want to analyze. Example:
+
+```bash
+Enter the full path of the file: /Users/ayn/Desktop/IMG_0826.PNG
+```
+
+## The tool will display:
+
+- File name and type
+- Size (in bytes)
+- Created and modified timestamps
+- MD5 hash
+- Optional: EXIF metadata (for JPEG images)
+
+
+
