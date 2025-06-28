@@ -53,5 +53,20 @@ Enter the full path of the file: /Users/ayn/Desktop/IMG_0826.PNG
 - MD5 hash
 - Optional: EXIF metadata (for JPEG images)
 
+## Example Output
+```bash
+ayn@MacBook-Air python % /usr/local/bin/python3 "/Users/ayn/Documents/python/Extract Metadata/file_metadata_extractor.py"
+ ## ---  File Metadata Extractor --- ##
+Enter the full path of the file: /Users/ayn/Desktop/IMG_0826.PNG
+
+=== File Metadata ===
+File Name      : IMG_0826.PNG
+File Size      : 3438116 bytes
+File Type      : PNG
+Created Time   : 2025-05-14 14:25:51.686111
+Modified Time  : 2025-05-14 14:21:49
+MD5 Hash       : 29f32f31ee9e508c6459068e1855cb97
+```
+
 
 
